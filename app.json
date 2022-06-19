@@ -1,0 +1,23 @@
+﻿{
+  "name": "Bot para Subir a las Moodle V7.2 Modded",
+  "description": "By t.me/AresDza",
+  "env": {
+    "administrador": {
+      "description": "Tu usuario de Telegram sin el Símbolo de @",
+      "value": ""
+    },
+    "bot_token": {
+      "description": "Token del BOT (Se obtiene en BOT Father)",
+      "value": ""
+    },
+   "password": {
+      "description": "Contraseña de Despliegue (SI NO TIENES LA CONTRASEÑA NO PODRÁS DESPLEGAR)",
+      "value": "" 
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+}
